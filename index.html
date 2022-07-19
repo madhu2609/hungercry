@@ -83,19 +83,18 @@
             <a href="#" class="btn">Donate Now</a>
         </div>
 
-        <div class="controls">
-            <span class="vid-btn active" data-src="images/myvi"></span>
-            <span class="vid-btn" data-src="images/vid-7.mp4"></span>
-            <span class="vid-btn" data-src="images/vid-back-dog.mp4"></span>
-            <span class="vid-btn" data-src="images/vid-back.mp4"></span>
+        <div class="controls carousel-item">
+            <span class="vid-btn active"  data-bs-interval="7000" data-src="images/myvi"></span>
+            <span class="vid-btn" data-bs-interval="7000" data-src="images/vid-7.mp4"></span>
+            <span class="vid-btn" data-bs-interval="7000" data-src="images/vid-back-dog.mp4"></span>
+            <span class="vid-btn"  data-bs-interval="7000" data-src="images/vid-back.mp4"></span>
             <!-- <span class="vid-btn " data-src=></span> -->
-            <span class="vid-btn " data-src="images/vid-8.mp4"></span>
+            <span class="vid-btn " data-bs-interval="7000" data-src="images/vid-8.mp4"></span>
             
         </div>
 
         <div class="video-container">
             <video src="images/myvi" id="video-slider" loop muted autoplay ></video>
-            <!-- <video src="images/vid-2.mp4" id="video-slider" loop muted autoplay ></video> -->
         </div>
 
     </section>
@@ -743,6 +742,8 @@ valueDisplays.forEach((valueDisplay) => {
 }); -->
 <script src="https://kit.fontawesome.com/4e3122c12c.js" crossorigin="anonymous"></script>
 <script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
  
 let valueDisplays = document.querySelectorAll(".counter");
